@@ -1,0 +1,28 @@
+nav{display: flex; justify-content: space-around; margin-top: 1rem; }
+.nav-links ul{display: flex;}
+.nav-links ul li{margin-left: 1rem; list-style: none;
+margin-right: 2em;}
+.nav-links ul li a{text-decoration: none; color: black;}
+.nav-links ul li a:hover{
+    border-bottom: 1px solid red;
+    font-size: 17px;
+}
+.nav-button li a{text-decoration: none; color: black;
+
+}
+.nav-button li a:hover{
+    border: 2px solid red ;
+border-radius: 10px;
+}
+
+.intro-content{
+    margin-top: 3rem;
+    margin-left: 1.5rem;
+}
+/* #recipe{
+
+} */
+footer{display: flex; background-color: rgb(56, 55, 55); justify-content: space-between;}
+footer div p{color: white;
+
+}
